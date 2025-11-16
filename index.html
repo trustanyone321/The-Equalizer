@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>N Streem Movie Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">N Streem</div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Movies</a>
+      <a href="#">Series</a>
+      <a href="#">My List</a>
+    </nav>
+  </header>
+
+  <!-- Video Player Section -->
+  <section class="player-section">
+    <div class="video-container">
+      <video id="video" controls preload="metadata" poster="poster.jpg">
+        <source src="Poster&Video/THE EQUALIZER - Official Trailer (HD)(720P_HD).mp4" type="video/mp4" />
+        Your browser doesn’t support video playback.
+      </video>
+  </section>
+
+  <!-- Movie Info Section -->
+  <section class="movie-info">
+    <img src="Poster&Video/0038692eea033e41d0aca3b8d20e2cde.jpg" alt="Movie Poster" class="poster" />
+    <div class="details">
+      <h2>The Equalizer</h2>
+      <p class="meta">| CBFC: A 2014 ‧ Action/Thriller ‧ 2h 12m |</p>
+      <p class="rating">IMDb 7.3/10</p>
+      <p class="overview">
+        With his violent past behind him, McCall decides to lead a quiet life. However, when he sees a young girl, Teri, being controlled by violent gangsters, he once again takes up the fight for justice.
+      </p>
+      <div class="buttons">
+        <button class="btn">Watchlist +</button>
+        <button class="btn">Share</button>
+        <button class="btn"><a href="https://drive.google.com/file/d/1UNFsCdNwnl3bMheKqlLpFZmPLITXSeys/view?usp=drivesdk">Download</a></button>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
